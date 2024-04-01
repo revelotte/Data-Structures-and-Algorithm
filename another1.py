@@ -43,12 +43,12 @@ while True:
     # Plot each function individually with the user-provided value of x
 
     # Plot f1(x)
-    plt.figure(figsize=(10, 6))
-    plt.plot(x_values, f1(x_values), label=f'f1(x) = {x**2 + 7*x + 2}')
-    plt.title(f'f1(x) = x^2 + 7x + 2 at x = {x}')
+    plt.figure(figsize=(10, 6)) #this is the size of the width and length of the graph
+    plt.plot(x_values, f1(x_values), label=f'f1(x) = {x**2 + 7*x + 2}') 
+    plt.title(f'f1(x) = x^2 + 7x + 2 at x = {x}') #it is the label at the upper center of the graph with the value of x
     plt.xlabel('x')
     plt.ylabel('y')
-    plt.legend()
+    plt.legend() #you can see this at the upper left of the graph
     plt.grid(True)
     plt.show()
 
